@@ -1,0 +1,48 @@
+.figure{
+    background-image: url('../images/book.jpg');
+    width:447px;
+}
+.articulo{
+   display: inline-block;
+   width: 30em;
+}
+.valor{
+    color:#049dbf;
+    font-size: 12px;
+    font-weight: bold;
+}
+input{
+    size: 10px;
+    height: 30px;
+    text-align: right;
+}
+.total{
+    color:#049dbf;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10em;
+}
+button{
+    background-color: #049dbf;
+    color: white;
+    font-size: 12px;
+
+}
+.carrito{
+    padding: 5px;
+}
+@media screen and (max-width: 763px) {
+    #cambioscreen {
+      max-height: 200px;
+    }
+}
+@media screen and (max-width: 491px) {
+    #textoLoren {
+      max-width:  25px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .figure {
+      width:  400px;
+    }
+}
